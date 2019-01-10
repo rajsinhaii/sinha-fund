@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sinha Fund</title>
+    <!-- CSS files for Bootstrap -->
+    <!-- UNCOMMENT IF NEEDED -->
+    <link rel = 'icon' href="favicon.ico">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Your css file -->
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <!-- YOUR CODE HERE -->
+<div class="logo-home">
+  <div>
+    <img style="margin-left:2%;
+                float:left;
+                height:100px;
+                width:100px;"
+                id="logo"
+                src = '../images/LASbw.jpg'>
+    </img>
+  </div>
+  <div>
+    <h1 class="title" style='text-align: center'>Lalit and Anju Sinha Scholarship Foundation</h1>
+  </div>
+</div>
+<div><br><br><br>
+  <nav style="background-color: rgb(246,246,246)" id="navbar" class="navbar">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li id="home"><a href="/">Home</a></li>
+        <li id="founder"><a href="founders">Founders</a></li>
+        <li id="about"><a href="about">About</a></li>
+        <li id="apply"><a href="apply">Apply</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+<h2 style="text-align: center">Hope Church Application</h2>
+<form action="/applyhope" method="post">
+
+  <div style="margin-left: 30px;
+              margin-right: 30px;"
+              class="form-group">
+      <label for="name">Full Leagal Name</label>
+      <input type="text" class="form-control" id="name" name="name" placeholder="Enter full legal name..." required>
+  </div>
+
+  <div style="margin-left: 30px;
+              margin-right: 30px;"
+              class="form-group">
+      <label for="email">Email</label>
+      <input type="text" class="form-control" id="email" name="email" placeholder="Enter email..." required>
+  </div>
+
+  <div style="margin-left: 30px;
+              margin-right: 30px;"
+              class="form-group">
+      <label for="phone">Phone</label>
+      <input type="number" class="form-control" id="phone" name="phone" placeholder="Enter mobile phone number..." required>
+  </div>
+
+  <div style="margin-left: 30px;
+              margin-right: 30px;"
+              class="form-group">
+      <label for="address">Street Address</label>
+      <input type="text" class="form-control" id="address" name="address" placeholder="Enter street address..." required>
+  </div>
+
+  <div style="margin-left: 30px;
+              margin-right: 30px;"
+              class="form-group">
+      <label for="city">City</label>
+      <input type="text" class="form-control" id="city" name="city" placeholder="Enter city...">
+  </div>
+
+  <div style="margin-left: 30px;
+              margin-right: 30px;"
+              class="form-group">
+      <label for="state">State</label>
+      <input type="text" class="form-control" id="state" name="state" placeholder="Enter state..." required>
+  </div>
+
+  <div style="margin-left: 30px;
+              margin-right: 30px;"
+              class="form-group">
+      <label for="zip">Zip Code</label>
+      <input type="text" class="form-control" id="zip" name="zip" placeholder="Enter zip code..." required>
+  </div>
+
+  <div style="margin-left: 30px;
+              margin-right: 30px;"
+              class="form-group">
+      <label for="gpa">Unweighted GPA (4.0 scale)</label>
+      <input type="number" class="form-control" id="gpa" name="gpa" placeholder="Enter GPA..." required>
+  </div>
+
+  <div style="margin-left: 30px;
+              margin-right: 30px;"
+              class="form-group">
+      <label for="classrank">Class Rank</label>
+      <input type="number" class="form-control" id="classrank" name="classrank" placeholder="Enter class rank..." required>
+  </div>
+
+  <div style="margin-left: 30px;
+              margin-right: 30px;"
+              class="form-group">
+      <label for="classsize">Class Size</label>
+      <input type="number" class="form-control" id="classsize" name="classsize" placeholder="Enter class size..." required>
+  </div>
+
+  <div style="margin-left: 30px;
+              margin-right: 30px;"
+              class="form-group">
+      <label for="act">Highest Composite ACT Score (if not taken put 0)</label>
+      <input type="number" class="form-control" id="act" name="act" placeholder="Enter ACT..." required>
+  </div>
+
+  <div style="margin-left: 30px;
+              margin-right: 30px;"
+              class="form-group">
+      <label for="sat">Highest Composite SAT Score (if not taken put 0)</label>
+      <input type="number" class="form-control" id="sat" name="sat" placeholder="Enter SAT..." required>
+  </div>
+  <div style="text-align: center">
+    <button style="text-align: center" type="submit" class="btn btn-primary">Submit</button>
+  </div>
+</form>
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+    <!-- JavaScript files for Bootstrap -->
+    <!-- UNCOMMENT IF NEEDED -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- underscoreJS Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+    <script type="text/javascript" src="./js/app.js"></script>
+  </body>
+</html>
